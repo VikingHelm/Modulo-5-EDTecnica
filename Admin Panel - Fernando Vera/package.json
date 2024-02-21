@@ -1,0 +1,17 @@
+{
+  "name": "adminpanel",
+  "version": "1.0.0",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "admin": "json-server --watch menu.json",
+    "launch": "run-p start watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
